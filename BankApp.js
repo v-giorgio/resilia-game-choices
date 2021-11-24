@@ -130,9 +130,9 @@ const checkAnswer6 = (answer) => {
     footerOption.appendChild(link);
   } else if (answer == 2) {
     let image = document.createElement("img");
-    if (temp == 1) image.src = "./money-icon.png";
-    else if (temp == 2) image.src = "./lion-icon.png";
-    else if (temp == 3) image.src = "./money-paper-icon.png";
+    if (temp == 1) image.src = "./assets/money-icon.png";
+    else if (temp == 2) image.src = "./assets/lion-icon.png";
+    else if (temp == 3) image.src = "./assets/money-paper-icon.png";
     image.classList.add("img-size");
     footerOption.appendChild(image);
   } else if (answer == 3) {
