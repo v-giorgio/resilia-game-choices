@@ -1,0 +1,135 @@
+@font-face {
+  font-family: Computer;
+  src: url("./assets/Fonts/Computerfont.woff");
+}
+
+/* MAIN QUESTIONS PAGE */
+body {
+  margin: 0;
+}
+
+.invisible {
+  display: none;
+}
+
+/* BODY */
+
+.body-font-arial {
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+.body-font-gill {
+  font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
+}
+
+.body-font-trebuchet {
+  font-family: "Trebuchet MS", "Lucida Sans Unicode", "Lucida Grande",
+    "Lucida Sans", Arial, sans-serif;
+}
+
+/* HEADER */
+
+header {
+  height: 100px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.img-size {
+  width: 80px;
+  height: auto;
+}
+
+.logo-name {
+  margin-left: 30px;
+}
+
+.logo-name {
+  font-size: 30px;
+  font-weight: bold;
+}
+
+.color-red {
+  background-color: rgb(105, 4, 4);
+  color: #ffffff;
+}
+
+.color-green {
+  background-color: rgb(7, 83, 11);
+  color: #ffffff;
+}
+
+.color-black {
+  background-color: #000;
+  color: #7dff13;
+}
+
+/* MAIN */
+
+main {
+  background-color: #ffffff;
+  display: flex;
+  flex-direction: column;
+  height: 200px;
+  justify-content: center;
+  align-items: center;
+  margin-top: 70px;
+}
+
+.font-color-red {
+  color: rgb(105, 4, 4);
+}
+
+.font-color-green {
+  color: rgb(7, 83, 11);
+}
+
+.font-color-black {
+  color: #000;
+}
+
+/* FOOTER */
+
+footer {
+  height: 100px;
+  position: fixed;
+  left: 0;
+  bottom: 0;
+  width: 100%;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+}
+
+.footer-name {
+  font-size: 18px;
+}
+
+a {
+  text-decoration: none;
+  color: #ffffff;
+}
+
+a:hover {
+  color: #000;
+}
+
+/* BUTTON */
+
+.back-button {
+  margin: 20px 0 30px 50px;
+  background-color: #000;
+  border: none;
+  border-radius: 5px;
+  color: chartreuse;
+  font-family: Computer;
+  font-size: 24px;
+  padding: 5px 20px;
+  letter-spacing: 3px;
+}
+
+.back-button:hover {
+  box-shadow: 0 0 1rem chartreuse;
+  cursor: pointer;
+}
